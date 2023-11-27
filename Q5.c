@@ -27,9 +27,9 @@ int main(){
         printf("Nome: ");
             gets(Nome[i]);
              printf("Preço: ");
-                 scanf("%f", &preco[i]);
+                 scanf("%f", &preco[j]);
                     printf("Quantidade: ");
-                        scanf("%d", &quantidade[i]);
+                        scanf("%d", &quantidade[j]);
             
         printf("Digite 2 par sai ou 1 para continuar: ");
          scanf("%d", &opcao);
