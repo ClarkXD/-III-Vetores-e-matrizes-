@@ -30,7 +30,7 @@ int main(){
                  scanf("%f", &preco[i]);
                     printf("Quantidade: ");
                         scanf("%d", &quantidade[i]);
-            flush(stdin);
+            
         printf("Digite 2 par sai ou 1 para continuar: ");
          scanf("%d", &opcao);
             i++;
