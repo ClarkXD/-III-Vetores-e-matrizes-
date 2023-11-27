@@ -17,34 +17,29 @@ int main()
 
     printf("\nMenu\n");
     printf("\n1 -Cadastrar novo contato na lista telefonica \n");
-    printf("\n2 - Mostrar os números cadastrados \n");
-    printf("\nDigite a opção desejada: ");
+    printf("\n2 - Mostrar os nÃºmeros cadastrados \n");
+    printf("\nDigite a opÃ§Ã£o desejada: ");
     scanf("%d", &opcao);
 
-    do
-    {
-
-        fflush(stdin);
-
+    do{
         printf("Nome: ");
         gets(nomes[contador]);
-        printf("Número: ");
+        printf("NÃºmero: ");
         gets(numeros[contador]);
   
   
         printf("1 -Cadastrar novo contato na lista telefonica \n");
-        printf("2 - Mostrar os números cadastrados: ");
+        printf("2 - Mostrar os nÃºmeros cadastrados: ");
 
-            printf("\nDigite a opção desejada: ");
+            printf("\nDigite a opÃ§Ã£o desejada: ");
                  scanf("%d", &opcao);
                 contador++;
 
         } while (opcao != 2);
-        printf("NÚMEROS CADASTRADOS:\n\n");
-        for     (i = 0; i < contador; i++)
-            {
+        printf("NÃšMEROS CADASTRADOS: \n");
+        for(i = 0; i < contador; i++){
         printf("Nome: %s\n", nomes[i]);
-        printf("Número: %s\n\n", numeros[i]);
+        printf("NÃºmero: %s\n", numeros[i]);
     }
 
     return 0;
